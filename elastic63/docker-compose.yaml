@@ -37,6 +37,7 @@ services:
       - es6data1:/usr/share/elasticsearch/data
     ports:
       - 9200:9200
+      - 9300:9300
     networks:
       - es6net
   elasticsearch2:
